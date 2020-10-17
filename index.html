@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>世界一意味がないサイト</title>
+</head>
+<body>
+<p id="text"></p>
+</body>
+<script>
+    var count = 0;
+    setInterval(() => {
+        document.getElementById("text").textContent = "あなたは"+String(count)+"秒時間を無駄にしました";
+        count++;
+    }, 1000);
+
+</script>
+</html>
